@@ -158,7 +158,7 @@ public class MagicSquare
             diagonalSum[0] += magicSquare[i][i] ;
             squareSize-- ;
             // collects diagonal sum going top right to bottom left
-            diagonalSum[1] += magicSquare[squareSize][squareSize] ;
+            diagonalSum[1] += magicSquare[i][squareSize] ;
         }
         
         // a sum is declared to sumNum
